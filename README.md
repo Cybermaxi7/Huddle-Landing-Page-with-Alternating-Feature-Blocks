@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://your-solution-url.com)
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-EFY7eK1Tsv)
+- Live Site URL: [Click here](https://cybermaxi7.github.io/Huddle-Landing-Page-with-Alternating-Feature-Blocks/)
 
 
 ### Built with
