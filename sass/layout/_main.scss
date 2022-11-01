@@ -1,0 +1,11 @@
+main {
+  width: 100%;
+  background-color: #fff;
+  padding: 10rem 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  @include for(phone) {
+    padding: 4rem;
+}
+}

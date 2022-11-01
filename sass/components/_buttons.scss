@@ -1,0 +1,35 @@
+.btn {
+  text-decoration: none;
+  border-radius: 5rem;
+  font-weight: $fw-700;
+  font-size: 1.8rem;
+
+  &-white {
+    color: $color-darkCyan;
+    background-color: #fff;
+    padding: .8rem 4rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
+    transition: all .3s ease-out;
+
+    @include for(phone) {
+      padding: -3rem .7rem;
+      font-size: 1.3rem;
+  }
+
+    &:hover {
+      color: hsla(192, 100%, 9%, 0.466);
+      padding: .9rem 4.2rem;
+    }
+  }
+  &-pink {
+    color: $color-paleCyan;
+    padding: 1.6rem 4rem;
+    background-color: $color-pink;
+    box-shadow: 0 0.5rem 1rem rgba($color-pink, 0.35);
+    transition: all .3s ease-out;
+
+    &:hover {
+      background-color: hsl(322, 84%, 75%);
+    }
+  }
+}

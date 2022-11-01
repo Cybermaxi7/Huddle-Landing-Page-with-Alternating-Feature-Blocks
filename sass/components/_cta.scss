@@ -1,0 +1,28 @@
+.cta {
+    border-radius: 2rem;
+    padding: 4rem 8rem;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 9px;
+    background-color: #fff;
+    position: absolute;
+    top: -8rem;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    @include for(tab-port) {
+        width: 90%;
+        margin: 0;
+    }
+    @include for(phone) {
+        padding: 4rem 1rem ;
+    }
+
+
+    h2 {
+        color: $color-darkCyan;
+        margin-bottom: 3rem;
+        @include for(phone) {
+            font-size: 2rem;
+        }
+    }
+}
